@@ -28,7 +28,7 @@ title_align center
 
 for_window [class=".*"] title_format "<b>%title</b>"
 for_window [all] title_window_icon off
-for_window [title="Alacritty"] title_format "Terminal"
+for_window [class="Alacritty"] title_format "Terminal: %title"
 ## for_window [all] title_window_icon padding 4px
 
 ## Padrão do i3wm

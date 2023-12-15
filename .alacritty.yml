@@ -1,0 +1,25 @@
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regula
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+  size: 14
+
+window:
+  padding:
+    x: 4
+    y: 4
+  class:
+    instance: Alacritty
