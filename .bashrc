@@ -114,20 +114,3 @@ fi
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 xset dpms 900
-
-alias vi=nvim
-alias vim='vi'
-alias svi='sudo vi'
-alias edit='vi'
-alias c='clear'
-alias cls='clear'
-alias ll='ls -alF'
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias ping='ping -c 5'
-alias ports='ss -lut'
-alias ..='cd ..'
-alias update='sudo apt-get update && sudo apt-get upgrade'
-alias h='history'
-alias hg='history | grep $1'
-alias dotfile='/usr/bin/git --git-dir=$HOME/.cfg/.git --work-tree=$HOME'
