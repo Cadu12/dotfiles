@@ -15,6 +15,7 @@
   b = branch
   a = add
   unadd = restore --staged
+  l = log --oneline
   ll = log
   ss = status -s
   ch = checkout
@@ -28,4 +29,5 @@
   d = diff
   ds = diff --staged
   lgraph = log --oneline --graph --decorate --all
+  cb = "!git branch --contains HEAD | grep '*' | tr -s ' ' | cut -d ' ' -f2"
   
