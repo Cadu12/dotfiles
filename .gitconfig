@@ -1,0 +1,31 @@
+[core]
+  editor = nvim
+
+[user]
+	email = cadu.oliveira@yahoo.com.br
+  name = Carlos Oliveira
+
+[init]
+  defaultBranch = main
+
+[alias]
+  ls-alias = config --get-regexp alias
+  s = status
+  c = commit
+  b = branch
+  a = add
+  unadd = restore --staged
+  ll = log
+  ss = status -s
+  ch = checkout
+  chb = checkout -b
+  brd = branch -d
+  p = push
+  cam = commit -am
+  cav = commit -av
+  cv = commit -v
+  cm = commit -m
+  d = diff
+  ds = diff --staged
+  lgraph = log --oneline --graph --decorate --all
+  
