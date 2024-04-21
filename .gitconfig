@@ -2,7 +2,7 @@
   editor = nvim
 
 [user]
-	email = cadu.oliveira@yahoo.com.br
+  email = cadu.oliveira@yahoo.com.br
   name = Carlos Oliveira
 
 [init]
