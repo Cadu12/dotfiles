@@ -8,6 +8,8 @@ alias dotfiles='/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HO
 source ~/.aliases
 
 set -gx EDITOR nvim
+set -gx GOPATH $HOME/go
+set -gx PATH $PATH $GOPATH/bin
 
 switch (uname)
     case Darwin
